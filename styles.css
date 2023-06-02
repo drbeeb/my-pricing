@@ -1,0 +1,278 @@
+body{
+    font-family: 'Sono', sans-serif;
+    background-color: rgb(25, 25, 25);
+  }
+  #head-nav {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    height: 10vh;
+    background-color: rgb(95, 31, 154);
+    border-top: 5px solid  rgb(65, 20, 108) ;
+
+  }
+  
+  .nav-list > li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1em;
+    
+  }
+  .nav-list > li > a{
+    text-decoration: none;
+    color: antiquewhite; 
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: whitesmoke;
+    font-weight: 700;
+  }
+  .head-spa {
+    display: inline;
+    font-size: 1.5em;
+    color: powderblue;
+  }
+
+  hr {
+    margin-top: 100px;
+    width: 10%;
+    border: 10px dotted  rgb(125, 126, 128);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  .main-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height:70vh;
+    align-items: center;
+  }
+
+  .left-card{
+    background-color: rgb(95, 31, 154);
+    flex: 1;
+    max-width: 700px;
+    padding: 30px 10px ;
+    text-align: center;
+
+  }
+  .tile-image {
+    height: 220px;
+    float: left;
+    margin-right: 15px;
+
+  }
+  .card-title{
+    color: whitesmoke;
+    font-size: 1.5em;
+
+  }
+  .card-text{
+    color: whitesmoke;
+    font-size: large;
+
+
+
+  }
+  footer {
+    text-align: right;
+    color:  rgb(125, 126, 128);
+    font-size: large;
+    font-weight: bold;
+  }
+
+
+   /** Plans & Princing Css**/
+  #Header {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+
+  }
+  p{
+    color:  rgb(125, 126, 128);
+  }
+  #planprice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 30px;
+
+
+
+  }
+  .plans-container {
+    max-width: 600px;
+    flex: 1;
+    font-weight: 400;
+    text-align: center;
+    background-color: beige;
+    
+    
+  }
+  .plan {
+    font-size: 24px;
+    background-color: rgb(43, 3, 43);
+    padding: 20px;
+    color: rgb(125, 126, 128);
+  
+  }
+  .price{
+    font-size: 48px;
+    background-color: rgb(62, 3, 62);
+    padding: 20px;
+    color: aliceblue;
+    
+  }
+  ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    
+  
+    
+  }
+  span{
+    display: block;
+    font-size: large;
+    color: rgb(125, 126, 128);
+  }
+  .plan-btn {
+    text-align: center;
+    padding: 15px 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: orangered;
+    color: rgb(210, 206, 206);
+    border: none;
+  }
+  .ba{
+    background-color: rgb(21, 56, 21);
+
+  }
+  .by {
+    background-color: green;
+  }
+  .busi{
+    background-color: rgb(121, 42, 14);
+    
+  }
+  .ness {
+    background-color:  orangered;
+  }
+
+  /**Testimony css styles**/
+  .Test-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+   
+  }
+  .Test-heading > h2 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  #Testimony-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 100vh;
+    gap: 20px;
+  }
+  .content-box {
+    width: 400px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+
+  }
+  
+  .content-box > img {
+    height: 250px;
+    width: 100%;
+    border-radius:50%;
+    position: relative;
+  }
+  .content-box > ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 20px;
+    text-align: center;
+   
+  }
+  .content-box > ul li {
+    color: orangered;
+    font-weight: 700;
+    font-size: 20px;
+
+  }
+  .content-box > ul.mid li {
+    color: whitesmoke;
+  }
+  /** footer css**/
+
+  #Footers{
+    margin-top: 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 30px;
+    background-color:  rgb(103, 46, 156) ;
+  }
+#Footers > #head-nav {
+  background-color:  rgb(103, 46, 156) ;
+}
+  #Footers > .foot {
+    background-color:  rgb(95, 31, 154) ;
+    padding: 20px;
+    width: 97%;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .foot > span{
+    display: inline;
+    font-weight: 700;
+  }
+  
+
+
+ 
+
+  @media (max-width: 1200px){
+    #planprice-container{
+      flex-direction: column;
+      height: 100%;
+      flex-wrap: wrap;
+      
+    }
+    .main-container {
+    flex-direction: column;
+    height: 100%;
+    
+  }
+  .tile-image{
+    float: none;
+    
+  }
+  .left-card,   #head-nav {
+    background-color: rgb(25, 25, 25);
+
+  }
+  #Testimony-container{
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  
+}
